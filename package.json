@@ -1,0 +1,18 @@
+{
+  "name": "testcafedemo",
+  "version": "1.0.0",
+  "description": "demo projecto for course about testCafe",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome tests/firstTest.js"
+  },
+  "keywords": [
+    "testCarfe",
+    "demo"
+  ],
+  "author": "Jhonatan O",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^1.17.0"
+  }
+}
