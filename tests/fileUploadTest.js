@@ -11,6 +11,8 @@ fixture("File Upload")
 test("File Upload", async t => {
     await t
     .setFilesToUpload(fileUpload, "firstTest.js")
+    .clearUpload(fileUpload)
+    .setFilesToUpload(fileUpload, "navigateTest.js")
     .click(fileUploadButton)
-    .expect(uploadedFile.innerText).eql("firstTest.js");
+    .expect(uploadedFile.innerText).eql("navigateTest.js");
 });
