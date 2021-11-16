@@ -4,7 +4,7 @@
   "description": "demo projecto for course about testCafe",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe chrome tests/DragTest.js"
+    "test": "testcafe chrome tests/Hover.js"
   },
   "keywords": [
     "testCarfe",
