@@ -6,7 +6,8 @@ const submitButton = Selector("#submitButton");
 fixture('First Fixture')
     .page("https://devexpress.github.io/testcafe/example/");
 
-    test('First Test', async t => {
+test.page("https://devexpress.github.io/testcafe/example/")
+    ('First Test', async t => {
         await t
             .typeText(developerName, 'John Smith')
             .click(osOption)
